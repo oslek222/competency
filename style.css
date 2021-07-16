@@ -1,0 +1,171 @@
+html{
+font-size:62.5%;
+
+}
+*{margin:0;}
+
+
+/*global*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+ 
+body{
+    font-family: 'Roboto', sans-serif;
+
+background-color:coral;
+
+}
+/*@media(min-width:768px ){body*/
+
+/*background-color:red;*/
+
+}
+*{margin:0;}
+h1,h2,h3{
+
+    text-align:center;
+}
+
+h1{font-size:5.6rem;
+    width:40%40;
+    margin-left:auto;
+    margin-right:auto;
+
+
+}
+
+p{font: size 1.6rem;
+line-height:2;
+margin-top:20px;
+margin-bottom:20px;
+
+}
+
+
+
+
+
+/*utilities*/
+.container{
+    width:70%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:50px;
+}
+/*header*/
+
+
+
+header{
+
+background-color: yellow;
+height:20vh;
+text-align: center;
+
+}
+
+
+
+.index-header i{
+    font-size:4rem;
+    margin-right:2rem;
+    margin-top:1.5;
+
+
+}
+                                                                 
+
+.menu a{
+    text-decoration:none;
+    font-size:1.8rem;
+    font-weight:300;
+    color:black;
+    margin-right:2rem;
+}
+.menu a:hover{
+    font-weight:700;
+}
+.my-picture{
+    display:block;
+    width:150 px;
+    height:200 px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:50%;
+    border: 5px solid black;
+padding:1px;
+}
+
+/*section*/
+ul{
+    background-color:green;
+    padding:1rem;
+
+
+
+}
+
+
+
+li{
+
+    font-size:1.6rem;
+    background-color:rgb(23, 23, 189);
+margin:1rem;
+padding:1rem;
+width:30rem;
+list-style-type:circle;
+
+}
+
+ul.list-1{
+background-color:blue;
+
+}
+
+
+ul.list-1 li a{
+text-decoration:none;
+color:white;
+
+}
+ul.list-1 li:hover{background-color: black;
+color:white;
+cursor: pointer;
+}
+ul.list-1 li:hover a{
+    color:white;
+
+}
+
+ol.list-1{
+    list-style-type:lower-roman;
+}
+
+ol.list-1 li{
+    color:white;
+    border: 1px dashed black;
+    padding:1rem;
+    margin:1rem;
+    width:30rem;
+}
+
+/*projects*/
+img.project-img{
+    width:20rem;
+}
+.projects{
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+}
+/*contact*/
+.contact{background-image: url(https://miro.medium.com/max/1094/1*MCn1VrXQznTi3JMtAIGK0g.jpeg);
+    background-position:center center;
+    background-size:cover;
+    color:white;
+    height:50vh;
+}
+.contact p{
+    text-align: center;
+}
